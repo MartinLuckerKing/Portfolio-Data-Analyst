@@ -1,13 +1,26 @@
 {
   "projects": [
 
+            {
+      "title": "Gantt Chart",
+      "id":"gc",
+      "text": "I created this Gantt chart to carefully plan and organize each stage of its construction, ensuring a clear timeline and efficient workflow.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "https://app.powerbi.com/view?r=eyJrIjoiYWU5ZWNhNmEtYzdlMi00YmE5LTgwMTktMjI4OGYzZDc2ZTAzIiwidCI6IjgwMzNhMGRjLTVhODEtNDkyZC1iYjg3LWNlMDNlOTFmMmNmNiJ9",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/p13gantt.JPG", "imgAlt": "Image 1"}
+
+      ]
+    },
+
         {
       "title": "Technical watch",
       "id":"tw",
       "text": "As part of my technical watch, I looked into new tools and methods that could improve a Data Analyst’s workflow. This included exploring Zapier to understand its potential for data management and integration. The aim was to stay up to date with current solutions, evaluate their relevance, and identify how they might fit into future projects.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "https://app.powerbi.com/groups/me/reports/c5af6d9a-02ea-4513-a210-d15b918da08c/39663d59a804e889982",
+      "visitWebsiteLink": "https://app.powerbi.com/view?r=eyJrIjoiZTI2MWQ0NmQtMzEyNi00YzdjLThiZDYtNzUyOGM3ZjAwNmQyIiwidCI6IjgwMzNhMGRjLTVhODEtNDkyZC1iYjg3LWNlMDNlOTFmMmNmNiJ9",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/veille/capture.png", "imgAlt": "Image 1"}
 
@@ -19,9 +32,70 @@
       "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "https://app.powerbi.com/groups/me/reports/81ce3b93-5fdd-477a-8b87-3ffcd2b1a67a?ctid=8033a0dc-5a81-492d-bb87-ce03e91f2cf6&pbi_source=linkShare",
+      "visitWebsiteLink": "https://app.powerbi.com/view?r=eyJrIjoiNGFmMTdmODEtNmZhZi00ZmUzLTk5MTYtZjA0MTMwNmU2YTFiIiwidCI6IjgwMzNhMGRjLTVhODEtNDkyZC1iYjg3LWNlMDNlOTFmMmNmNiJ9",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/profil/profil.jpg", "imgAlt": "Image 1"}
+
+      ]
+    },
+            {
+      "title": "Business requirements analysis",
+      "id":"ba",
+      "text": "I have compiled a summary of the key business needs and challenges a data analyst will face. These include understanding stakeholder requirements, ensuring data quality, and delivering actionable insights.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "./pdf/besoin_metier.pdf",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/besoin_metier.jpg", "imgAlt": "Image 1"}
+
+      ]
+    },
+                        {
+      "title": "Statement of work",
+      "id":"sw",
+      "text": "I have compiled a detailed summary of my requirements for this portfolio, including the features needed, technical considerations, and the pricing information provided by the hosting provider.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "./pdf/Cahier des charges.pdf",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/Cahier_charge.jpg", "imgAlt": "Image 1"}
+
+      ]
+    },
+                            {
+      "title": "Mind map",
+      "id":"mm",
+      "text": "I have designed a mind map to outline the journey of my training and to decompose the final project into clear, actionable steps for better organization and execution.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "https://miro.com/app/board/uXjVJZue1u8=/",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/Carte mentale.jpg", "imgAlt": "Image 1"}
+
+      ]
+    },
+                          {
+      "title": "Formation document 'How to make good graph in Power BI'",
+      "id":"fwp",
+      "text": "I have written a detailed guide on how to create clear, visually appealing charts in Power BI. It covers design principles, formatting tips, and best practices to enhance data storytelling.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "./pdf/Guide_graph.pdf",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/guide_graph.jpg", "imgAlt": "Image 1"}
+
+      ]
+    },
+
+                              {
+      "title": "Video formation 'How to make good graph in Power BI'",
+      "id":"fvp",
+      "text": "I have created a YouTube video tutorial on how to design attractive and effective charts in Power BI. The video covers practical tips, formatting techniques, and best practices for clear data visualization.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "https://www.youtube.com/watch?v=MzcCWBWXEUc",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/formation video power bi.jpg", "imgAlt": "Image 1"}
 
       ]
     },
@@ -31,7 +105,7 @@
       "text": "This project involved analyzing global data to calculate the average daily calorie intake per person. The goal was to aggregate information from various countries, clean and standardize the datasets, and then compute a worldwide average. This analysis also aimed to identify regional disparities in calorie consumption, highlight trends over time, and explore possible correlations with socio-economic indicators such as GDP, food availability, and public health statistics.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "#",
+      "visitWebsiteLink": "./pdf/p4.pdf",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/projectData/main.jpg", "imgAlt": "Image 1"}
 
@@ -43,7 +117,7 @@
       "text": "This project required extracting real estate data from a SQL database. The task involved writing optimized SQL queries to retrieve relevant property information, such as location, size, price, and transaction date. The extracted data was then cleaned, validated, and prepared for further analysis. The objective was to enable insights into market trends, pricing patterns, and regional differences in the real estate sector.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "#",
+      "visitWebsiteLink": "./notebook/p5.html",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/projectData/sql.png", "imgAlt": "Image 1"}
 
@@ -55,7 +129,7 @@
       "text": "In this project, I analyzed the sales data of an online wine shop to identify best-selling products and detect outliers in purchasing behavior. The work included consolidating multiple internal files from the company into a single, clean dataset, ensuring consistency and accuracy. This unified dataset was then used to perform exploratory data analysis, highlight sales trends, and provide actionable insights for inventory and marketing strategies.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "#",
+      "visitWebsiteLink": "./notebook/p6.html",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/projectData/bottleneck.png", "imgAlt": "Image 1"}
 
@@ -78,7 +152,7 @@
       "id":"p8",
       "text": "This project was carried out using KNIME and consisted in recreating the gender equality simulation to facilitate calculations with our own dataset. The workflow included importing and cleaning HR-related data, implementing the necessary formulas to compute gender equality indicators, and automating the process to allow quick updates. The final output enabled the team to generate clear reports, visualize key metrics, and support compliance with legal requirements.",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "#",
+      "visitWebsiteLink": "./notebook/p8.html",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/projectData/P8.JPG", "imgAlt": "Image 1"}
 
@@ -90,7 +164,7 @@
       "text": "In this project, I analyzed the sales data of a bookstore to identify patterns and correlations, such as the relationship between customer age and purchasing behavior. The analysis also explored other potential factors influencing sales, segmented customer profiles, and highlighted best-selling categories. The insights generated were intended to guide marketing strategies, inventory planning, and targeted promotions.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "#",
+      "visitWebsiteLink": "./notebook/p9.html",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/projectData/P9.JPG", "imgAlt": "Image 1"}
 
@@ -102,7 +176,7 @@
       "text": "This project involved creating a dashboard to quickly identify the countries most likely to require humanitarian aid. The task included collecting and consolidating international datasets, cleaning and standardizing the information, and designing visual indicators to highlight vulnerability factors such as poverty rates, access to resources, and recent crisis events. The dashboard enabled stakeholders to prioritize aid allocation based on data-driven insights.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "#",
+      "visitWebsiteLink": "https://app.powerbi.com/view?r=eyJrIjoiMGIxNTkwNTYtNzE3ZS00YTVhLTljNzEtMGY3Mjg3OWZjMWQwIiwidCI6IjgwMzNhMGRjLTVhODEtNDkyZC1iYjg3LWNlMDNlOTFmMmNmNiJ9",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/projectData/P10.JPG", "imgAlt": "Image 1"}
 
@@ -114,7 +188,7 @@
       "text": "This project involved analyzing poultry data from the FAO (Food and Agriculture Organization) to determine the most suitable country for exporting our chicken products. The analysis included examining production volumes, import and export statistics, consumption trends, and trade regulations. The results provided actionable insights to identify the most promising international markets and optimize export strategies.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "#",
+      "visitWebsiteLink": "./notebook/p11.html",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/projectData/p11.JPG", "imgAlt": "Image 1"}
 
@@ -127,7 +201,7 @@
       "text": "This project focused on detecting counterfeit banknotes using multiple machine learning algorithms from the Scikit-learn library. The workflow included data exploration, feature selection, model training, and performance evaluation through metrics such as accuracy and recall. Several algorithms, including classification models, were compared to determine the most effective approach for accurate counterfeit detection.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
-      "visitWebsiteLink": "#",
+      "visitWebsiteLink": "./notebook/p12.html",
       "slides": [
         {"id": "slide1", "imgSrc": "./img/projectData/p12.JPG", "imgAlt": "Image 1"}
 

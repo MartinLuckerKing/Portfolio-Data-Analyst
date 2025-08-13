@@ -28,7 +28,7 @@
             {
       "title": "Study of public health in the world",
       "id":"p4",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "text": "This project involved analyzing global data to calculate the average daily calorie intake per person. The goal was to aggregate information from various countries, clean and standardize the datasets, and then compute a worldwide average. This analysis also aimed to identify regional disparities in calorie consumption, highlight trends over time, and explore possible correlations with socio-economic indicators such as GDP, food availability, and public health statistics.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",
@@ -40,7 +40,7 @@
                 {
       "title": "Analyzing real estate data with SQL",
       "id":"p5",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "text": "This project required extracting real estate data from a SQL database. The task involved writing optimized SQL queries to retrieve relevant property information, such as location, size, price, and transaction date. The extracted data was then cleaned, validated, and prepared for further analysis. The objective was to enable insights into market trends, pricing patterns, and regional differences in the real estate sector.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",
@@ -52,7 +52,7 @@
                     {
       "title": "Analyzing online sell of a wine cave",
       "id":"p6",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "text": "In this project, I analyzed the sales data of an online wine shop to identify best-selling products and detect outliers in purchasing behavior. The work included consolidating multiple internal files from the company into a single, clean dataset, ensuring consistency and accuracy. This unified dataset was then used to perform exploratory data analysis, highlight sales trends, and provide actionable insights for inventory and marketing strategies.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",
@@ -64,7 +64,7 @@
                     {
       "title": "Power BI Dashboard to Visualize Project Progress Worldwide",
       "id":"p7",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "text": "This project involved building a Power BI dashboard to track the company’s progress metrics. The work included connecting to multiple data sources, cleaning and transforming the datasets, and designing clear, interactive visualizations. The dashboard allowed management to monitor key performance indicators (KPIs) in real time, identify bottlenecks, and make data-driven decisions to improve operational efficiency.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",
@@ -76,8 +76,7 @@
                         {
       "title": "Analyze Gender Equality in the Workplace",
       "id":"p8",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
-      "visitWebsiteButtonClass": "button__visitWebsite",
+      "text": "This project was carried out using KNIME and consisted in recreating the gender equality simulation to facilitate calculations with our own dataset. The workflow included importing and cleaning HR-related data, implementing the necessary formulas to compute gender equality indicators, and automating the process to allow quick updates. The final output enabled the team to generate clear reports, visualize key metrics, and support compliance with legal requirements.",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",
       "slides": [
@@ -88,7 +87,7 @@
                             {
       "title": "Analyze Sells in online library",
       "id":"p9",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "text": "In this project, I analyzed the sales data of a bookstore to identify patterns and correlations, such as the relationship between customer age and purchasing behavior. The analysis also explored other potential factors influencing sales, segmented customer profiles, and highlighted best-selling categories. The insights generated were intended to guide marketing strategies, inventory planning, and targeted promotions.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",
@@ -98,9 +97,9 @@
       ]
     },
                                 {
-      "title": "Study on drinking worldwide",
+      "title": "Study on drinking water worldwide",
       "id":"p10",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "text": "This project involved creating a dashboard to quickly identify the countries most likely to require humanitarian aid. The task included collecting and consolidating international datasets, cleaning and standardizing the information, and designing visual indicators to highlight vulnerability factors such as poverty rates, access to resources, and recent crisis events. The dashboard enabled stakeholders to prioritize aid allocation based on data-driven insights.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",
@@ -112,7 +111,7 @@
                                     {
       "title": "Market research on poultry",
       "id":"p11",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "text": "This project involved analyzing poultry data from the FAO (Food and Agriculture Organization) to determine the most suitable country for exporting our chicken products. The analysis included examining production volumes, import and export statistics, consumption trends, and trade regulations. The results provided actionable insights to identify the most promising international markets and optimize export strategies.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",
@@ -125,7 +124,7 @@
                                         {
       "title": "Detection of false money with machine learning",
       "id":"p12",
-      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "text": "This project focused on detecting counterfeit banknotes using multiple machine learning algorithms from the Scikit-learn library. The workflow included data exploration, feature selection, model training, and performance evaluation through metrics such as accuracy and recall. Several algorithms, including classification models, were compared to determine the most effective approach for accurate counterfeit detection.",
       "visitWebsiteButtonClass": "button__visitWebsite",
       "visitWebsiteButtonText": "Visit Website",
       "visitWebsiteLink": "#",

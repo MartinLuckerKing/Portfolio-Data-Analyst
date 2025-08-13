@@ -1,0 +1,148 @@
+.button {
+
+
+  &__cv {
+    color: $white-text;
+    transition: 0.5s;
+    @include buttonFull(16px, 43px);
+    
+    @include breakpointMin('medium') {
+      &:hover {
+        transition: 0.5s;
+        font-size: 14px;
+        margin-top: 46px;
+        margin-bottom: 1px;
+             
+      }
+    }
+
+
+    @include breakpoint('small') {
+      min-width: 280px;
+
+  }
+
+  @include breakpoint('xxsmall') {
+    min-width: 198px;
+}
+  }
+
+  &__contact {
+    transition: 0.5s;
+    @include buttonFull(14px, 30px);
+
+    a {
+      margin-right: 50px;
+
+    }
+
+    &:hover {
+      color: $white-text;
+      transition: 0.5s;
+      font-size: 14px;
+      margin: 2px 24.05px;
+    
+    }
+  }
+
+  &__hireMe {
+    color: $white-text;
+    transition: 0.5s;
+    @include buttonFull(16px, 43px);
+
+    @include breakpointMin('medium') {
+      &:hover {
+
+        transition: 0.5s;
+        font-size: 14px;
+        margin: 4px 3.9px;
+             
+      }
+      
+      
+    }
+
+    @include breakpoint('small') {
+      min-width: 280px;
+
+  }
+
+  @include breakpoint('xxsmall') {
+    min-width: 198px;
+}
+  
+  }
+
+&__visitWebsite {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  color: white;
+  max-width: 160px;
+  margin-bottom: 90px;
+  box-sizing: border-box;
+  @include buttonFull(18px, 30px);
+  transition: transform 0.5s ease;
+  transform: translateY(0);
+  transition: 0.5s;
+
+  &:hover {
+    padding-top: 12px; 
+    padding-bottom: 12px;
+    margin-right: 5.5px;
+    margin-left: 5.5px;
+    transition: 0.5s;
+  }
+
+
+
+    @include breakpointMin('medium') {
+      &:hover {
+        font-size: 14px;
+        margin-bottom: 92px;
+        transition: 0.5s;
+      }
+    }
+
+    @include breakpointMin('medium') {
+      &:hover {
+        font-size: 14px;
+        transition: 0.5s;
+      }
+    }
+
+    @include breakpoint('large') {
+      margin: 0 50px 30px 50px;
+
+  }
+
+  @include breakpoint('small') {
+    margin: 0 20px 50px 20px;
+
+}
+  }
+
+  &__send {
+    cursor: pointer;
+    border: none;
+    margin: 20px 50px 0 50px;
+    color: $white-text;
+    letter-spacing: 1px;
+    font-size: 21px;
+    max-width: 547px;
+    font-weight: 600;
+    @include buttonFull(18px, 30px);
+    transition: 0.5s;
+
+    @include breakpointMin('medium') {
+      &:hover {
+        font-size: 19px;
+        transition: 0.5s;
+        margin: 21px 51px 1px 51px;
+  
+      }
+    }
+
+
+  }
+}

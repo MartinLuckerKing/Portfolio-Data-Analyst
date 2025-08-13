@@ -1,0 +1,42 @@
+@mixin buttonFull($padding-y: 10px, $padding-x: 30px) {
+    background-color: #11ADFF;
+    padding: $padding-y $padding-x;
+    border-radius: 1px;
+  }
+
+@mixin blackGlass($padding-left-x: 30px) {
+  position: relative;
+  margin-right: 30px;
+  margin-left: $padding-left-x;
+  border-radius:1px;
+  background: rgba(42, 42, 46, 0.65);
+  overflow: hidden;
+  display: flex;
+  backdrop-filter: blur(10px);
+  clip-path: inset(0 0 0 0);
+
+  @include breakpoint('small') {
+    margin: 0px 0px;
+  }
+
+  @include breakpoint('xxsmall') {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+
+@mixin breakpoint($name) {
+  $breakpoint-value: map-get($breakpoints, $name);
+    @media (max-width: $breakpoint-value) {
+      @content;
+    }
+}
+
+@mixin breakpointMin($name) {
+  $breakpoint-value: map-get($breakpoints, $name);
+    @media (min-width: $breakpoint-value) {
+      @content;
+    }
+}

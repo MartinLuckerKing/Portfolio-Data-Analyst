@@ -1,0 +1,50 @@
+.summary {
+    @include blackGlass();
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    &__title {
+        color: $primary-color;
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    &__margin {
+        margin-top: 100px;
+    }
+
+    &__tableau {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding: 2rem;
+          @include breakpoint('medium') {
+            grid-template-columns: 1fr;
+
+        }
+        &__center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        a {
+            color: #DDDDDD;
+            text-decoration: underline;
+
+    
+        }
+
+        a:hover {
+            color: $primary-color;
+        }
+
+        &__width {
+            max-width: 800px;
+        }
+    }
+}

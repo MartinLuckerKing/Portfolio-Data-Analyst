@@ -1,0 +1,138 @@
+{
+  "projects": [
+
+        {
+      "title": "Technical watch",
+      "id":"tw",
+      "text": "As part of my technical watch, I looked into new tools and methods that could improve a Data Analyst’s workflow. This included exploring Zapier to understand its potential for data management and integration. The aim was to stay up to date with current solutions, evaluate their relevance, and identify how they might fit into future projects.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "https://app.powerbi.com/groups/me/reports/c5af6d9a-02ea-4513-a210-d15b918da08c/39663d59a804e889982",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/veille/capture.png", "imgAlt": "Image 1"}
+
+      ]
+    },
+        {
+      "title": "Profil",
+      "id":"cv",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "https://app.powerbi.com/groups/me/reports/81ce3b93-5fdd-477a-8b87-3ffcd2b1a67a?ctid=8033a0dc-5a81-492d-bb87-ce03e91f2cf6&pbi_source=linkShare",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/profil/profil.jpg", "imgAlt": "Image 1"}
+
+      ]
+    },
+            {
+      "title": "Study of public health in the world",
+      "id":"p4",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/main.jpg", "imgAlt": "Image 1"}
+
+      ]
+    },
+                {
+      "title": "Analyzing real estate data with SQL",
+      "id":"p5",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/sql.png", "imgAlt": "Image 1"}
+
+      ]
+    },
+                    {
+      "title": "Analyzing online sell of a wine cave",
+      "id":"p6",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/bottleneck.png", "imgAlt": "Image 1"}
+
+      ]
+    },
+                    {
+      "title": "Power BI Dashboard to Visualize Project Progress Worldwide",
+      "id":"p7",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/P7.JPG", "imgAlt": "Image 1"}
+
+      ]
+    },
+                        {
+      "title": "Analyze Gender Equality in the Workplace",
+      "id":"p8",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/P8.JPG", "imgAlt": "Image 1"}
+
+      ]
+    },
+                            {
+      "title": "Analyze Sells in online library",
+      "id":"p9",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/P9.JPG", "imgAlt": "Image 1"}
+
+      ]
+    },
+                                {
+      "title": "Study on drinking worldwide",
+      "id":"p10",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/P10.JPG", "imgAlt": "Image 1"}
+
+      ]
+    },
+                                    {
+      "title": "Market research on poultry",
+      "id":"p11",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/p11.JPG", "imgAlt": "Image 1"}
+
+      ]
+    },
+
+                                        {
+      "title": "Detection of false money with machine learning",
+      "id":"p12",
+      "text": "This dashboard gives a clear view of my professional journey, skills, and key achievements. The idea is to present my experience in a simple and visual way, making it easy to explore my background and understand my profile at a glance.",
+      "visitWebsiteButtonClass": "button__visitWebsite",
+      "visitWebsiteButtonText": "Visit Website",
+      "visitWebsiteLink": "#",
+      "slides": [
+        {"id": "slide1", "imgSrc": "./img/projectData/p12.JPG", "imgAlt": "Image 1"}
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Martin Duchesne</title>
+    <meta property="og:site_name" content="Martin Duchesne" />
+    <meta property="og:type" content="Portfolio" />
+    <meta property="og:url" content="https://martinduchesne.com/" />
+    <meta property="og:title" content="Portfolio - Martin Duchesne" />
+    <meta property="og:description" content="All my work so far" />
+    <meta property="og:image" content="https://martinduchesne.com/img/meta/presentation.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@martinduchesne" />
+    <meta name="twitter:title" content="Portfolio - Martin Duchesne" />
+    <meta name="twitter:description" content="My work" />
+    <meta name="twitter:image" content="./img/meta/presentation.jpg" />
+    <meta name="description" content="Explore my portfolio as a web developer with a strong focus on Front-End development. Discover my projects and skills.">
+    <script defer src="./schemaPerson.json" type="application/ld+json"></script>
+    <script defer src="https://kit.fontawesome.com/7dedfb4a80.js" crossorigin="anonymous"></script>
+    <script defer src="./js/burger.js" crossorigin="anonymous"></script>
+    <script defer src="./js/vannillaTilt.js"></script>
+    <script defer src="./js/project/project.js" crossorigin="anonymous"></script>
+    <script defer src="./js/project/summary.js" crossorigin="anonymous"></script>
+    <script defer src="./js/slider.js"></script>
+  </head>
+  <body class="background">
+    <section id="home">
+      <div class="navBar">
+        <div class="header">
+          <div class="header__container">
+          <div class="header__container__logo">Martin D.
+            <h2>DATA ANALYST</h2> 
+          </div>
+        </div>
+      </div>
+      <div class="header__nav">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list_item"><a class="nav__link" aria-label="home" href="#home">Home</a></li>
+            <li class="nav__list_item"><a class="nav__link" aria-label="about me" href="#aboutMe">About me</a></li>
+            <li class="nav__list_item"><a class="nav__link" aria-label="my work" href="#myWork">My Work</a></li>
+            <li class="nav__list_item"><a class="nav__link" aria-label="contact" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="navBar__link">
+        <div class="burgerMenu">
+          <div class="burgerMenu__button">
+            <div class="menu-btn">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+        <div><a class="navBar__void" aria-label="home" href="#home">Home</a></div>
+        <div><a class="navBar__void" aria-label="about me" href="#aboutMe">About me</a></div>
+        <div><a class="navBar__void" aria-label="my work" href="#myWork">My Work</a></div>
+        <div><a class="button__contact" aria-label="contact" href="#contact">Contact</a></div>
+      </div>
+      <div class="banner" role="banner">
+        <div class="banner__left">
+          <h3 class="banner__left__hello">Hi...</h3>
+          <h3 class="banner__left__presentation"><span class="banner__left__presentation__pronoun">I'm </span><span class="banner__left__presentation--color">Martin.</span></h3>
+          <h4 class="banner__left__description">A passionate Data analyst</h4>
+          <span class="banner__left__link">
+              <a class="banner__left__link" href="#">Download CV</a><a class="button__hireMe" aria-label="Hire me" href="#contact">Hire me</a>
+          </span>
+        </div>
+        <div class="banner__right">
+          <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <div class="card__content">
+              <img class="card__content__round" src="./img/profile/openclass.JPG" alt="profile picture">
+              <div>
+                <h1>Martin Duchesne</h1>
+                <h2>Data analyst</h2>
+                <a  href="https://www.linkedin.com/in/martin-duchesne-2b6072226/"><i class="fa-brands fa-linkedin"><span class="sr-only">Linkedin Link</span></i></a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </section>
+    <div class="container">
+      <section id="aboutMe">
+        <div class="aboutMe">
+          <h3 class="aboutMe__sideText">Data Analyst</h3>
+          <div class="aboutMe__container">
+        </div>
+        <div class="borderContainer">
+          <div class="border__left"></div>
+          <div class="border__top"></div>
+          <div class="aboutMe__content">
+            <h2>About Me</h2>
+            <p>Passionate about data and driven by a desire to turn numbers into meaningful insights, I am a junior data analyst committed to delivering clear, actionable, and visually compelling analyses.
+                My journey has equipped me with solid skills in data manipulation, visualization, and statistical analysis using tools like Excel, SQL, and Python. I am constantly exploring new methods and technologies to stay at the forefront of this fast-evolving field.
+                My projects reflect my attention to detail, my ability to collaborate effectively, and my commitment to producing high-quality analyses that not only meet business objectives but also communicate insights in a clear and engaging way.</p>
+            <a class="button__cv" href="#">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="whatIDo" class="whatIDo">
+        <h2>What I Do</h2>
+        <h3 class="whatIDo__specializing">Specializing In</h3>
+        <div class="whatIDo__content">
+          <div class="whatIDo__content__container">
+            <img class="placeholderCircle" src="./img/svg/circlepython.svg" alt="react icon">
+              <h4 class="placeholderCircle__title">Python</h4>
+              <p class="placeholderCircle__description">Automation · Analysis · Efficiency
+              </p>
+            </div>
+            <div class="whatIDo__content__container">
+              <div><img class="placeholderCircle" src="./img/svg/circletest2.svg" alt="front-end icon">
+            </div>
+                <h4 class="placeholderCircle__title">SQL</h4>
+                <p class="placeholderCircle__description">Extraction · Querying · Structuring
+                </p>
+              </div>
+              <div class="whatIDo__content__container">
+                <img class="placeholderCircle" src="./img/svg/circlePandas2.svg" alt="backend icon">
+                  <h4 class="placeholderCircle__title">Pandas</h4>
+                  <p class="placeholderCircle__description">Cleaning · Transformation · Insights
+                  </p>
+              </div>
+          </div>
+          
+        </section>
+        <section id="summary" class="summary">
+          <h2 class="summary__margin summary__title ">Summary</h2>
+            <div class="summary__tableau">
+            </div>
+        </section>
+        <section id="myWork">
+          <div class="recentProject">
+            <h2 class="recentProject__title">My Recent Projects</h2>
+            <div class="borderProject">
+          </div>
+        </div>
+        </section>
+        <section  id="mySkills">
+          <div class="mySkills">
+            <h2>My Skills</h2>
+            <div class="mySkills__content">
+              <div>
+                <i class="fa-brands fa-python"></i>
+                <p>Pyhton</p>
+              </div>
+                <div>
+                  <img src="/img/svg/pandasBlue.svg" alt="">
+                <p>Pandas</p>
+              </div>
+              <div>
+                  <i class="fa-solid fa-database"></i>
+                <p>SQL</p>
+              </div>
+                <div>
+                  <img src="/img/svg/powerbi.svg" alt="">
+                <p>Power BI</p>
+              </div>
+
+                <div>
+                  <img src="/img/svg/scikit-learn.svg" alt="">
+                <p>SKlearn</p>
+              </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="contact">
+            <div class="contact__content">
+              <h2>Let's Talk!</h2>
+              <p>i'd love to hear from you.</p>
+              <div class="contact__content__letter">
+                <div class="contact__content__letter__square">
+                  <div class="contact__content__letter__rodLeft"></div>
+                  <div class="contact__content__letter__rodRight"></div>
+                </div>
+              </div>
+            </div>
+            <div class="contact__content__form">
+              <form
+                action="https://formspree.io/f/mvojdrey"
+                method="POST"
+              >
+              <div class="contact__content__form__inline">
+              <label>
+                FIRST NAME
+                <input type="text" name="firstName" placeholder="Enter your name">
+              </label>
+              <label>
+                LAST NAME
+                <input type="text" name="lastName" placeholder="Enter your last name">
+              </label>
+              <label>
+                PHONE NUMBER
+                <input type="number" name="phoneNumber" placeholder="Enter your phone number">
+              </label>
+              <label>
+                YOUR EMAIL
+                <input type="email" name="email" placeholder="johndoe@gmail.com">
+              </label>
+            </div>
+            <div class="contact__content__form__message">
+              <div>
+              <label>
+                MESSAGE
+                <textarea name="message" placeholder="Enter your message"></textarea>
+              </label>
+              </div>
+                <button class="button__send" type="submit">SUBMIT</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__content__left">
+            <h2 class="footer__content__left__logo">Martin D.</h2>
+            <h3 class="footer__content__left__followMe">Follow Me</h3>
+            <a href="https://www.linkedin.com/in/martin-duchesne-2b6072226/"><i class="fa-brands fa-linkedin footer__content__left__icon"><span class="sr-only">Linkedin Link</span></i></a>
+          </div>
+            <div class="footer__content__menu">
+            <div>
+              <h3><a aria-label="home" href="#home">Home</a></h3>
+              <p><a href="#contact" aria-label="Hire Me">Hire Me</a></p>
+              <p><a href="#aboutMe" aria-label="About Me">About Me</a></p>
+              <p><a href="#myWork" aria-label="My Work">My Work</a></p>
+            </div>
+            <div class="footer__content__menu__contact">
+              <h3><a href="#contact" aria-label="Contact">Contact</a></h3>
+              <p><a href="mailto:martin.duchesne27@gmail.com" aria-label="martin.duchesne27@gmail.com">martin.duchesne27@gmail.com</a></p>
+              <p><a aria-label="Profil Linkedin Martin Duchesne" href="https://www.linkedin.com/in/martin-duchesne-2b6072226/">Linkedin</a></p>
+            </div>  
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

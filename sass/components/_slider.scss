@@ -1,0 +1,137 @@
+.slider {
+    perspective: 1200px;
+    position: relative;
+    max-width: 570px;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+
+    @include breakpoint('small') {
+        right: 0px;
+        width: 400px;
+    }
+
+    @include breakpoint('xsmall') {
+        right: 0px;
+        width: 300px;
+    }
+
+    @include breakpoint('xxsmall') {
+        right: 0px;
+        max-width: 200px;
+    }
+}
+
+.slide {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transition: transform 1.1s, box-shadow 1.5s ease-out;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transform: translate(-50%, -50%);
+}
+
+.slide img {
+    width: 500px;
+    max-height: 300px;
+    height: auto;
+    border-radius: 2px;
+    display: block;
+
+    @include breakpoint('small') {
+        right: 0px;
+        max-width: 400px;
+    }
+
+    @include breakpoint('xsmall') {
+        right: 0px;
+        max-width: 300px;
+    }
+
+    @include breakpoint('xxsmall') {
+        right: 0px;
+        max-width: 300px;
+}
+}
+.slide.active {
+    -webkit-box-shadow: 0px 0px 70px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 70px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 70px 0px rgba(0,0,0,0.9);
+}
+
+
+.next {
+    display: none;
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    right: 19px;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: $primary-color;
+    opacity: 85%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+
+    @include breakpoint('large') {
+        right: 18px;
+    }
+
+    @include breakpoint('medium') {
+        right: 52px;
+    }
+
+    @include breakpoint('small-intermediate') {
+        right: 27px;
+        height: 40px;
+        width: 40px;
+    }
+
+    @include breakpoint('small') {
+        right: 2px;
+        height: 44px;
+        width: 44px;
+    }
+
+    @include breakpoint('xsmall') {
+        right: -5px;
+        height: 44px;
+        width: 44px;
+    }
+    @include breakpoint('xxsmall') {
+        right: -15px;
+        height: 44px;
+        width: 44px;
+    }
+
+
+}
+
+
+.whiteTriangle {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16px;
+    height: 17px;
+    background-color: white;
+    clip-path: polygon(90% 50%, 0% 0%, 0% 100%);
+
+    @include breakpoint('small') {
+        right: 0px;
+        height: 14px;
+        width: 15px;
+        transform: translate(-45%, -50%);
+    }
+
+
+}
+

@@ -1296,13 +1296,6 @@ table {
 @media (min-width: 768px) {
   .button__visitWebsite:hover {
     font-size: 14px;
-    margin-bottom: 92px;
-    transition: 0.5s;
-  }
-}
-@media (min-width: 768px) {
-  .button__visitWebsite:hover {
-    font-size: 14px;
     transition: 0.5s;
   }
 }

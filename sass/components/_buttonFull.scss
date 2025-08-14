@@ -98,9 +98,7 @@
 
     @include breakpointMin('medium') {
       &:hover {
-        font-size: 14px;
-        margin-bottom: 92px;
-        transition: 0.5s;
+
       }
     }
 
